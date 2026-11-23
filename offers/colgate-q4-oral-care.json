@@ -1,5 +1,5 @@
 {
-  "offerSchema": "1.x",
+  "offerSchema": "2.0",
   "campaignId": "COL-Q4-2026",
   "campaignName": "Colgate-Palmolive Q4 Oral Care & Softsoap",
   "brand": "Colgate-Palmolive Canada",
@@ -18,7 +18,8 @@
     "timezone": "America/Toronto"
   },
   "audience": {
-    "segmentId": "SEG-48213",
+    "registryRef": "aud://pco/seg/48213",
+    "registryVersion": 2,
     "segmentName": "Colgate Oral & Personal Care Households",
     "memberTargeting": "PERSONALIZED"
   },
@@ -96,5 +97,5 @@
     "status": "PUBLISHED",
     "publishedAt": null
   },
-  "notes": "Related Salesforce case: Case 00001836"
+  "notes": "Related Salesforce case: Case 00001836. Migrated to offerSchema 2.0 (Audience Registry v2) per APP-8 / APP-7."
 }
