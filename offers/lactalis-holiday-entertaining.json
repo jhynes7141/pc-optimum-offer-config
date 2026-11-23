@@ -1,0 +1,129 @@
+{
+  "offerSchema": "1.x",
+  "campaignId": "LCT-HOL-2026",
+  "campaignName": "Lactalis Holiday Entertaining 2026",
+  "brand": "Lactalis Canada",
+  "owner": {
+    "brandContact": "marcantoine.bellerose@lactalis.ca",
+    "loblawOfferOps": "offer-ops@loblaw.example"
+  },
+  "funding": {
+    "model": "BRAND_FUNDED",
+    "committedCad": 1100000,
+    "currency": "CAD"
+  },
+  "schedule": {
+    "startDate": "2026-11-24",
+    "endDate": "2026-12-31",
+    "timezone": "America/Toronto"
+  },
+  "audience": {
+    "segmentId": "SEG-51907",
+    "segmentName": "Lactalis Holiday Entertainers (cheese buyers, hosts)",
+    "memberTargeting": "PERSONALIZED"
+  },
+  "offers": [
+    {
+      "offerId": "LCT-HOL-2026-01",
+      "title": "Black Diamond cheese: 4,000 bonus points when you buy 2",
+      "category": "Cheese",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 4000,
+        "minSpendCad": 10,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 3,
+        "maxPointsLiabilityCad": 275000
+      },
+      "eligibleBanners": [
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS",
+        "ZEHRS",
+        "FORTINOS",
+        "PROVIGO"
+      ]
+    },
+    {
+      "offerId": "LCT-HOL-2026-02",
+      "title": "Astro & Siggi's: 2,500 bonus points when you buy 3",
+      "category": "Yogurt",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 2500,
+        "minSpendCad": 9,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 3,
+        "maxPointsLiabilityCad": 275000
+      },
+      "eligibleBanners": [
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS",
+        "ZEHRS",
+        "FORTINOS",
+        "PROVIGO"
+      ]
+    },
+    {
+      "offerId": "LCT-HOL-2026-03",
+      "title": "Cracker Barrel: 3,500 bonus points when you buy 2",
+      "category": "Cheese",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 3500,
+        "minSpendCad": 12,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 3,
+        "maxPointsLiabilityCad": 275000
+      },
+      "eligibleBanners": [
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS",
+        "ZEHRS",
+        "FORTINOS",
+        "PROVIGO"
+      ]
+    },
+    {
+      "offerId": "LCT-HOL-2026-04",
+      "title": "Beatrice cream & butter: 2,000 bonus points when you spend $8",
+      "category": "Dairy",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 2000,
+        "minSpendCad": 8,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 3,
+        "maxPointsLiabilityCad": 275000
+      },
+      "eligibleBanners": [
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS",
+        "ZEHRS",
+        "FORTINOS",
+        "PROVIGO"
+      ]
+    }
+  ],
+  "publish": {
+    "channels": [
+      "PC_OPTIMUM_APP",
+      "PC_OPTIMUM_WEB",
+      "IN_STORE_KIOSK"
+    ],
+    "status": "PUBLISHED",
+    "publishedAt": null
+  },
+  "notes": "Related Salesforce case: Case 00001835"
+}

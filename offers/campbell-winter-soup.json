@@ -1,0 +1,79 @@
+{
+  "offerSchema": "1.x",
+  "campaignId": "CMP-WIN-2026",
+  "campaignName": "Campbell Winter Soup & Meal Starters",
+  "brand": "Campbell Company of Canada",
+  "owner": {
+    "brandContact": "neil.brennan@campbells.ca",
+    "loblawOfferOps": "offer-ops@loblaw.example"
+  },
+  "funding": {
+    "model": "BRAND_FUNDED",
+    "committedCad": 650000,
+    "currency": "CAD"
+  },
+  "schedule": {
+    "startDate": "2026-11-15",
+    "endDate": "2027-01-31",
+    "timezone": "America/Toronto"
+  },
+  "audience": {
+    "segmentId": "SEG-50312",
+    "segmentName": "Campbell Winter Soup Households",
+    "memberTargeting": "PERSONALIZED"
+  },
+  "offers": [
+    {
+      "offerId": "CMP-WIN-2026-01",
+      "title": "Campbell's soups: 3,000 bonus points when you buy 4",
+      "category": "Soup",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 3000,
+        "minSpendCad": 8,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 5,
+        "maxPointsLiabilityCad": 325000
+      },
+      "eligibleBanners": [
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS",
+        "MAXI"
+      ]
+    },
+    {
+      "offerId": "CMP-WIN-2026-02",
+      "title": "Pace & Prego: 2,000 bonus points when you buy 2",
+      "category": "Meal Starters",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 2000,
+        "minSpendCad": 7,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 5,
+        "maxPointsLiabilityCad": 325000
+      },
+      "eligibleBanners": [
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS",
+        "MAXI"
+      ]
+    }
+  ],
+  "publish": {
+    "channels": [
+      "PC_OPTIMUM_APP",
+      "PC_OPTIMUM_WEB",
+      "IN_STORE_KIOSK"
+    ],
+    "status": "PUBLISHED",
+    "publishedAt": null
+  },
+  "notes": "Related Salesforce case: Case 00001837"
+}

@@ -1,0 +1,79 @@
+{
+  "offerSchema": "1.x",
+  "campaignId": "HSY-HOL-2026",
+  "campaignName": "Hershey Holiday Treats",
+  "brand": "Hershey Canada",
+  "owner": {
+    "brandContact": "tyler.ouellette@hershey.ca",
+    "loblawOfferOps": "offer-ops@loblaw.example"
+  },
+  "funding": {
+    "model": "BRAND_FUNDED",
+    "committedCad": 700000,
+    "currency": "CAD"
+  },
+  "schedule": {
+    "startDate": "2026-11-20",
+    "endDate": "2026-12-31",
+    "timezone": "America/Toronto"
+  },
+  "audience": {
+    "segmentId": "SEG-50671",
+    "segmentName": "Hershey Holiday Treat Households",
+    "memberTargeting": "PERSONALIZED"
+  },
+  "offers": [
+    {
+      "offerId": "HSY-HOL-2026-01",
+      "title": "Hershey's & Reese: 3,000 bonus points when you buy 3",
+      "category": "Chocolate",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 3000,
+        "minSpendCad": 9,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 4,
+        "maxPointsLiabilityCad": 350000
+      },
+      "eligibleBanners": [
+        "LOBLAWS",
+        "SHOPPERS_DRUG_MART",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS"
+      ]
+    },
+    {
+      "offerId": "HSY-HOL-2026-02",
+      "title": "Twizzlers & Jolly Rancher: 2,000 bonus points when you buy 2",
+      "category": "Sugar Confectionery",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 2000,
+        "minSpendCad": 6,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 4,
+        "maxPointsLiabilityCad": 350000
+      },
+      "eligibleBanners": [
+        "LOBLAWS",
+        "SHOPPERS_DRUG_MART",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS"
+      ]
+    }
+  ],
+  "publish": {
+    "channels": [
+      "PC_OPTIMUM_APP",
+      "PC_OPTIMUM_WEB",
+      "IN_STORE_KIOSK"
+    ],
+    "status": "PUBLISHED",
+    "publishedAt": null
+  },
+  "notes": "Related Salesforce case: Case 00001839"
+}

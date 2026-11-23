@@ -1,0 +1,100 @@
+{
+  "offerSchema": "1.x",
+  "campaignId": "COL-Q4-2026",
+  "campaignName": "Colgate-Palmolive Q4 Oral Care & Softsoap",
+  "brand": "Colgate-Palmolive Canada",
+  "owner": {
+    "brandContact": "dana.whitfield@colpal.ca",
+    "loblawOfferOps": "offer-ops@loblaw.example"
+  },
+  "funding": {
+    "model": "BRAND_FUNDED",
+    "committedCad": 900000,
+    "currency": "CAD"
+  },
+  "schedule": {
+    "startDate": "2026-11-18",
+    "endDate": "2026-12-31",
+    "timezone": "America/Toronto"
+  },
+  "audience": {
+    "segmentId": "SEG-48213",
+    "segmentName": "Colgate Oral & Personal Care Households",
+    "memberTargeting": "PERSONALIZED"
+  },
+  "offers": [
+    {
+      "offerId": "COL-Q4-2026-01",
+      "title": "Colgate Total & Optic White: 5,000 bonus points when you spend $15",
+      "category": "Oral Care",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 5000,
+        "minSpendCad": 15,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 4,
+        "maxPointsLiabilityCad": 300000
+      },
+      "eligibleBanners": [
+        "SHOPPERS_DRUG_MART",
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS"
+      ]
+    },
+    {
+      "offerId": "COL-Q4-2026-02",
+      "title": "Softsoap & Palmolive: 3,000 bonus points when you spend $10",
+      "category": "Personal Care",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 3000,
+        "minSpendCad": 10,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 4,
+        "maxPointsLiabilityCad": 300000
+      },
+      "eligibleBanners": [
+        "SHOPPERS_DRUG_MART",
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS"
+      ]
+    },
+    {
+      "offerId": "COL-Q4-2026-03",
+      "title": "Hill's Science Diet: 7,500 bonus points on 12lb+ bags",
+      "category": "Pet",
+      "reward": {
+        "type": "BONUS_POINTS",
+        "pointsPer": 7500,
+        "minSpendCad": 40,
+        "pointsValueNote": "PC Optimum points; 10,000 pts = $10"
+      },
+      "limits": {
+        "perMemberRedemptions": 4,
+        "maxPointsLiabilityCad": 300000
+      },
+      "eligibleBanners": [
+        "SHOPPERS_DRUG_MART",
+        "LOBLAWS",
+        "REAL_CANADIAN_SUPERSTORE",
+        "NO_FRILLS"
+      ]
+    }
+  ],
+  "publish": {
+    "channels": [
+      "PC_OPTIMUM_APP",
+      "PC_OPTIMUM_WEB",
+      "IN_STORE_KIOSK"
+    ],
+    "status": "PUBLISHED",
+    "publishedAt": null
+  },
+  "notes": "Related Salesforce case: Case 00001836"
+}
